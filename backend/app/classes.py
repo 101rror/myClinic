@@ -8,8 +8,8 @@ class Priority(str, Enum):
 
 
 class PatientIn(BaseModel):
-    name: str = Field(..., min_length=1)
-    problem: str = Field(..., min_length=1)
+    name: str = Field(..., min_length=3)
+    problem: str = Field(..., min_length=3)
     priority: Priority = Priority.Normal
 
 
