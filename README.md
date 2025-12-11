@@ -1,6 +1,22 @@
 # Clinic Patient Queue
 
+## Tech Stack
+
+### Frontend
+
+- **React**
+- **JavaScript**
+- **CSS**
+
+### Backend
+
+- **FastAPI** – Python web framework for APIs
+- **Uvicorn** – ASGI server to run FastAPI
+- **Pydantic** – Data validation
+- **JSON** – Storage
+
 ---
+
 ## Quick Start
 
 ### 1. Clone the repository
@@ -11,6 +27,7 @@ cd myClinic
 ```
 
 ### 1. Start Backend
+
 ```powershell
 cd backend
 python -m venv .venv
